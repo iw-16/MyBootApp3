@@ -1,4 +1,5 @@
-server:
-    port : 4444
-    serblet : 
-        context-path : /te
+spring:
+    mvc:
+        view:
+            prefix: /WEB-INF/views/ 
+            suffix: .jsp
