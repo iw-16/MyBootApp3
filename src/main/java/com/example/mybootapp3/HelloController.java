@@ -16,7 +16,7 @@ public class HelloController{
     public String miyagi(){
         return "Miyagi desu!";
     }
-    @RequestMapping("/te/taro")
+    @RequestMapping("/taro")
     public String taro(){
         return "Taro desu!";
     }
